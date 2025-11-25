@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>25 + 5 Clock</title>
+	<link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  </head>
+  <body>
+    <audio id="beep">
+      <source src="chime.m4a" />
+    </audio>
+    <div id="master-div">
+      <div id="break-label">Break Length</div>
+      <div id="break-container">
+        <div id="break-decrement" class="button"><i class="fa fa-solid fa-arrow-down"></i></div>
+        <div id="break-length"></div>
+        <div id="break-increment" class="button"><i class="fa fa-solid fa-arrow-up"></i></div>
+      </div>
+      <div id="session-label">Session Length</div>
+      <div id="session-container">
+        <div id="session-decrement" class="button"><i class="fa fa-solid fa-arrow-down"></i></div>
+        <div id="session-length"></div>
+        <div id="session-increment" class="button"><i class="fa fa-solid fa-arrow-up"></i></div>
+      </div>
+      <div id="timer-label">Timer Status</div>
+      <div id="time-left">mm:ss</div>
+      <div id="timer-container">
+        <div id="start_stop" class="button"><i class="fa fa-solid fa-play" id="play-button"></i><i class="fa fa-solid fa-pause" id="pause-button"></i></div>
+        <div id="reset" class="button"><i class="fa"></i></div>
+      </div>
+    </div>
+	<script src="scripts.js"></script>
+  </body>
+</html>
